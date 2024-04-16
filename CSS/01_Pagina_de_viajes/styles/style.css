@@ -63,6 +63,15 @@ section {
 .btn:hover {
     background-color: #0056b3; /* Establece color de fondo en hover boton */
 }
+
+.destinos-container{
+}
+.destino{
+    width: calc(33.33% - 20px); /* Establece el ancho de cada destino menos el espacio entre los destinos */
+    
+}
+
+
 footer{
     background-color: #333; /* Establece color fondo de footer */
     color: #fff; /* Establece color de texto de footer */
