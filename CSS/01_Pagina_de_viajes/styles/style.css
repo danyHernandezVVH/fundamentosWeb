@@ -65,12 +65,26 @@ section {
 }
 
 .destinos-container{
+    display: flex; /* Utiliza flexbox para alinear elementos */
+    justify-content: space-between; /* Distribuye uniformemenente los elementos */
+    flex-wrap: wrap; /* Si los elementos no caben en la misma línea, agrega una nueva linea con estos elementos extras */
 }
 .destino{
     width: calc(33.33% - 20px); /* Establece el ancho de cada destino menos el espacio entre los destinos */
-    
+    margin-bottom: 20px; /* Define el margen inferior*/
+    text-align: center; /* Centra el texto */
 }
 
+.destino img{
+    width: 100%; /* Establece el ancho de la imagen ajustandola al elemento que la contiene */
+    border-radius: 8px; /* Agrega esquinas redondeadas */
+}
+.destino h3{
+    margin-top:10px; /* Agrega distancia entre imagen y h3 */
+}
+.destino p{
+    margin-top:10px; /* Agrega distancia superior entre h3 y p */
+}
 
 footer{
     background-color: #333; /* Establece color fondo de footer */
